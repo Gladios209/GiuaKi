@@ -1,0 +1,76 @@
+/* CSS Stylesheet Comments */
+
+/* Set the default font family for the entire HTML document */
+html {
+  font-family: sans-serif;
+}
+
+/* Reset the default margin of the body element to 0 */
+body {
+  margin: 0px;
+}
+
+/* Set margins for heading elements h1-h6 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 25px 0 15px 0; /* Top, Right, Bottom, Left */
+}
+
+/* Style for h2 headings */
+h2 {
+  font-size: 17px; /* Set font size to 17 pixels */
+  font-weight: bold; /* Make the text bold */
+}
+
+/* Style for the wrapper element */
+#wrapper {
+  width: 80%; /* Set the width to 80% of its containing block */
+  margin: 0 auto; /* Center the element horizontally using auto margins */
+}
+
+/* Style for elements with the class 'row' */
+.row {
+  width: 100%; /* Set the width to 100% */
+  display: inline-block; /* Make the element behave as an inline block */
+  margin-bottom: 5px; /* Add margin at the bottom of each row */
+}
+
+/* Style for elements with the class 'header' */
+.header {
+  color: green; /* Set the text color to green */
+  text-transform: uppercase; /* Convert the text to uppercase */
+}
+
+/* Style for elements with the class 'lbltitle' */
+.lbltitle {
+  width: 20%; /* Set the width to 20% */
+  float: left; /* Float the element to the left */
+}
+
+/* Style for elements with the class 'lblinput' or 'lbloutput' */
+.lblinput,
+.lbloutput {
+  width: 80%; /* Set the width to 80% */
+  float: left; /* Float the element to the left */
+}
+
+/* Style for elements with the class 'submit' */
+.submit {
+  width: 50%; /* Set the width to 50% */
+  float: left; /* Float the element to the left */
+}
+
+/* Style for input and textarea elements */
+input,
+textarea {
+  width: 300px; /* Set the width to 300 pixels */
+}
+
+/* Style for button elements */
+button {
+  width: 307px; /* Set the width to 307 pixels */
+}
